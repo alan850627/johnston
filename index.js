@@ -4,11 +4,9 @@ const fs = require('fs')
 
 const RATE = 44100
 const UNIT_TIME = 1.5 // seconds
-const CONCERT_C4 = 264 // herts
+const CONCERT_C4 = 264 // hertz
 const VOLUME = tone.MAX_16
 const OUT_FILE = 'out.wav'
-
-var s = tone({ freq: 440, lengthInSecs: 5, volume: tone.MAX_16 })
 
 function findBaseFrequency(noteName) {
   const pitchClass = noteName.charAt(0)

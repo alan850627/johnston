@@ -17,7 +17,7 @@ Go ahead and edit the constants in index.js. Example:
 ```Javascript
 const RATE = 44100
 const UNIT_TIME = 1.5 // seconds
-const CONCERT_C4 = 264 // herts
+const CONCERT_C4 = 264 // hertz
 const VOLUME = tone.MAX_16
 const OUT_FILE = 'out.wav'
 ```
